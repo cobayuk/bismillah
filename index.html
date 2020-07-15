@@ -1,0 +1,362 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="theme-color" content="#000000">
+    <title>BelajarBro</title>
+    <meta name="description" content="Tempat belajar terbaik untuk persiapan masuk perguruan tinggi kedinasan"/>
+    <meta name="keywords" content="Bimbel IPDN, Bimbel STAN, Bimbel STIS, Bimbel Akpol, Bimbel Akmil" />
+    <link rel="icon" type="image/png" href="https://mobilekit.bragherstudio.com/view7/assets/img/favicon.png" sizes="32x32">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://mobilekit.bragherstudio.com/view7/assets/img/icon/192x192.png">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="manifest" href="__manifest.json">
+    <style>
+    body{
+		background-image: linear-gradient(147deg, #FFFFFF 10%, #B8C9F1 58%, #FFFFFF 32%);
+    	}
+    .child{
+    	background-image: linear-gradient(147deg, #FF2B64 70%, #FFFFFF 30%);
+    	}
+    .white{
+    	color:white;
+    	}
+
+    </style>
+</head>
+<p></p>
+<body>
+
+    <!-- loader -->
+    <div id="loader">
+        <div class="spinner-border text-danger" role="status"></div>
+    </div>
+    <!-- * loader -->
+
+    <!-- App Header -->
+    <div class="appHeader bg-primary scrolled">
+        <div class="left">
+            <a href="#" class="headerButton" data-toggle="modal" data-target="#sidebarPanel">
+                <ion-icon name="filter-outline"></ion-icon>
+            </a>
+        </div>
+        <div class="pageTitle">
+            BelajarSKD
+        </div>
+        <div class="right">
+            <a href="javascript:;" class="headerButton toggle-searchbox">
+                <ion-icon name="search-outline"></ion-icon>
+            </a>
+        </div>
+    </div>
+    <!-- * App Header -->
+
+    <!-- Search Component -->
+    <div id="search" class="appHeader">
+        <form class="search-form">
+            <div class="form-group searchbox">
+                <input type="text" class="form-control" placeholder="Search...">
+                <i class="input-icon">
+                    <ion-icon name="search-outline"></ion-icon>
+                </i>
+                <a href="javascript:;" class="ml-1 close toggle-searchbox">
+                    <ion-icon name="close-circle"></ion-icon>
+                </a>
+            </div>
+        </form>
+    </div>
+    <!-- * Search Component -->
+
+    <!-- App Capsule -->
+    <div id="appCapsule">
+
+        <div class="header-large-title">
+            <h1 class="title">BelajarSKD</h1>
+            <h5 class="subtitle">Belajar SKD lebih mudah dan nyaman</h5>
+        </div>
+     
+
+        <div class="section mt-3 mb-3">
+            <div class="card">
+                <div class="card-body d-flex justify-content-between align-items-end">
+                    <div>
+                        <h6 class="card-subtitle">Discover</h6>
+                        <h5 class="card-title mb-0 d-flex align-items-center justify-content-between">
+                            Dark Mode
+                        </h5>
+                    </div>
+                    <div class="custom-control custom-switch">
+                        <input type="checkbox" class="custom-control-input dark-mode-switch" id="darkmodeswitch">
+                        <label class="custom-control-label" for="darkmodeswitch"></label>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="section mt-3 mb-3">
+          <h3> Profil Sekolah Kedinasan</h3>
+        </div>
+            <div class="carousel-multiple owl-carousel owl-theme">
+                <div class="item">
+                    <div class="card">
+                        <img src="img/stan.jpg" class="card-img-top" alt="image">
+                        <div class="card-body pt-2">
+                            <h4 class="mb-0">Politeknik Keuangan Negara (PKN) STAN</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card">
+                        <img src="img/ipdn.jpg" class="card-img-top" alt="image">
+                        <div class="card-body pt-2">
+                            <h4 class="mb-0">Institut Pemerintahan Dalam Negeri</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card">
+                        <img src="img/stsn.jpg" class="card-img-top" alt="image">
+                        <div class="card-body pt-2">
+                            <h4 class="mb-0">Sekolah Tinggi Sandi Negara (STSN)</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card">
+                        <img src="img/poltekip.jpg" height="165px" class"="card-img-top" alt="image">
+                        <div class="card-body pt-2">
+                            <h4 class="mb-0">Politeknik Ilmu Kemasyarakatan (POLTEKIP)</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card">
+                        <img src="img/stin.png" class="card-img-top" alt="image">
+                        <div class="card-body pt-2">
+                            <h4 class="mb-0">Sekolah Tinggi Intelijen Negara (STIN)</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card">
+                        <img src="img/stis.png" class="card-img-top" alt="image">
+                        <div class="card-body pt-2">
+                            <h4 class="mb-0">Sekolah Tinggi Ilmu Statistika (STIS)</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card">
+                        <img src="img/sttd.jpg" class="card-img-top" alt="image">
+                        <div class="card-body pt-2">
+                            <h4 class="mb-0">Sekolah Tinggi Transportasi Darat (STTD)</h4>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        
+        <div class="section mt-3 mb-3">
+          <h3> Tryout Gratis
+          <a href="javascript:;" data-toggle="tooltip" data-placement="top" title="Dilengkapi passing grade dan batas waktu"><ion-icon name="help-circle"></ion-icon></a>
+          </h3>
+        </div>
+            <div class="carousel-multiple owl-carousel owl-theme">
+                <div class="item">
+                    <div class="card child">
+                        <div class="card-body pt-2">
+                            <h4 class="mb-0 white">Tes Wawasan Kebangsaan</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card child">
+                        <div class="card-body pt-2">
+                            <h4 class="mb-0 white">Tes Intelegensi Umum</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card child">
+                        <div class="card-body pt-2">
+                            <h4 class="mb-0 white">Tes Karakteristik Pribadi</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                
+                
+        <div class="section mt-3 mb-3">
+          <h3> Rekomendasi<br></h3>
+            <div class="card">
+                <img src="https://mobilekit.bragherstudio.com/view7/assets/img/sample/photo/wide4.jpg" class="card-img-top" alt="image">
+                <div class="card-body">
+                    <h6 class="card-subtitle">Tips & Trik</h6>
+                    <h5 class="card-title">Aturan Passing Grade SKD</h5>
+                    <p class="card-text">
+                        Terdapat sejumlah peraturan mengenai passing grade untuk bisa lulus SKD...
+                    </p>
+                    <a href="app-components.html" class="btn btn-primary">SELENGKAPNYA</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="section mt-3 mb-3">
+            <div class="card">
+                <img src="https://mobilekit.bragherstudio.com/view7/assets/img/sample/photo/wide2.jpg" class="card-img-top" alt="image">
+                <div class="card-body">
+                    <h6 class="card-subtitle">Tips & Trik</h6>
+                    <h5 class="card-title">Tips Jitu Mengerjakan SKD</h5>
+                    <p class="card-text">
+                        Untuk memperbesar peluang lulus SKD, ada sejumlah tips yang wajib kamu tahu...
+                    </p>
+                    <a href="app-components.html" class="btn btn-primary">SELENGKAPNYA</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- * App Capsule -->
+
+    <!-- App Bottom Menu -->
+    <div class="appBottomMenu rounded no-border">
+        <a href="soal.html" class="item">
+            <div class="col">
+                <ion-icon name="rocket-outline"></ion-icon><strong>Soal</strong>
+            </div>
+        </a>
+        <a href="materi.html" class="item">
+            <div class="col">
+                <ion-icon name="grid-outline"></ion-icon><strong>Materi</strong>
+            </div>
+        </a>
+        <a href="index.html" class="item active">
+            <div class="col">
+                <ion-icon name="home"></ion-icon><strong>Home</strong>
+            </div>
+        </a>
+        <a href="kuis.html" class="item">
+            <div class="col">
+                <ion-icon name="ribbon-outline"></ion-icon><strong>Kuis</strong>
+            </div>
+        </a>
+        <a href="javascript:;" class="item" data-toggle="modal" data-target="#sidebarPanel">
+            <div class="col">
+                <ion-icon name="menu-outline"></ion-icon><strong>Menu</strong>
+            </div>
+        </a>
+    </div>
+    <!-- * App Bottom Menu -->
+
+        <!-- App Sidebar -->
+    <div class="modal fade panelbox panelbox-left" id="sidebarPanel" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body p-0">
+
+                    <!-- profile box -->
+                    <div class="profileBox">
+                        <div class="image-wrapper">
+                            <img src="src/logo.jpg" alt="image" class="imaged rounded">
+                        </div>
+                        <div class="in">
+                            <strong>BelajarBro</strong>
+                            <div class="text-muted">
+                                <ion-icon name="location"></ion-icon>
+                                Indonesia
+                            </div>
+                        </div>
+                        <a href="javascript:;" class="close-sidebar-button" data-dismiss="modal">
+                            <ion-icon name="close"></ion-icon>
+                        </a>
+                    </div>
+                    <!-- * profile box -->
+
+    <ul class="listview flush transparent no-line image-listview mt-2">
+  <li>
+  <a href="about.html" class="item">
+  <div class="icon-box bg-primary">
+   <ion-icon name="person-outline"></ion-icon>
+  </div>
+  <div class="in">
+   Tentang Kami
+  </div>
+  </a>
+  </li>
+  <li>
+  <a href="kontak.html" class="item">
+  <div class="icon-box bg-primary">
+   <ion-icon name="call-outline"></ion-icon>
+  </div>
+  <div class="in">
+   Kontak
+  </div>
+  </a>
+  </li>
+  <li>
+  <a href="donasi.html" class="item">
+  <div class="icon-box bg-primary">
+   <ion-icon name="gift-outline"></ion-icon>
+  </div>
+  <div class="in">
+   <div>Donasi</div>
+  </div>
+  </a>
+  </li>
+  <li>
+  <div class="item">
+  <div class="icon-box bg-primary">
+   <ion-icon name="moon-outline"></ion-icon>
+  </div>
+  <div class="in">
+   <div>Dark Mode</div>
+   <div class="custom-control custom-switch">
+   <input type="checkbox" class="custom-control-input dark-mode-switch"
+   id="darkmodesidebar">
+   <label class="custom-control-label" for="darkmodesidebar"></label>
+   </div>
+  </div>
+  </div>
+  </li>
+  </ul>
+  </div>
+
+                <!-- sidebar buttons -->
+                <div class="sidebar-buttons">
+                    <a href="javascript:;" class="button">
+                        <ion-icon name="person-outline"></ion-icon>
+                    </a>
+                    <a href="javascript:;" class="button">
+                        <ion-icon name="archive-outline"></ion-icon>
+                    </a>
+                    <a href="javascript:;" class="button">
+                        <ion-icon name="settings-outline"></ion-icon>
+                    </a>
+                    <a href="javascript:;" class="button">
+                        <ion-icon name="log-out-outline"></ion-icon>
+                    </a>
+                </div>
+                <!-- * sidebar buttons -->
+            </div>
+        </div>
+    </div>
+    <!-- * App Sidebar -->
+
+    <!-- ///////////// Js Files ////////////////////  -->
+    <!-- Jquery -->
+    <script src="assets/js/jquery-3.4.1.min.js"></script>
+    <!-- Bootstrap-->
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- Ionicons -->
+    <script type="module" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.js"></script>
+    <!-- Owl Carousel -->
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <!-- jQuery Circle Progress -->
+    <script src="assets/js/circle-progress.min.js"></script>
+    <!-- Base Js File -->
+    <script src="assets/js/base.js"></script>
+</body>
+
+</html>

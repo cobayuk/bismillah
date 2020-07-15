@@ -1,0 +1,12 @@
+.opening:before{
+				content: "Berikut adalah latihan soal dan pembahasan "
+				}
+.opening:after{
+				content: " Selamat mengerjakan!!"
+				}
+.closing:before{
+				content: "Itulah tadi latihan soal dan pembahasan "
+				}
+.closing:after{
+				content: " Silahkan kembali ke halaman soal untuk mengerjakan soal lainnya. Selamat belajar!!"
+				}

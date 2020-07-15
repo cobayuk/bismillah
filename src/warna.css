@@ -1,0 +1,10 @@
+.btn-bottom{
+				background-color: orange;
+				color:white;
+				}
+.goback{
+				pointer-events:none;
+				cursor: default; 
+				text-decoration: none; 
+				color: blue; 
+				}

@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport"
+content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="theme-color" content="#000000">
+<title>BelajarSKD</title>
+<meta name="description" content="Tempat belajar terbaik untuk persiapan masuk perguruan tinggi kedinasan"/>
+<meta name="keywords" content="Bimbel IPDN, Bimbel STAN, Bimbel STIS, Bimbel Akpol, Bimbel Akmil" />
+<!-- CSS Penting -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="../assets/css/style.css">
+<link rel="stylesheet" href="../src/kuis.css">
+</head>
+<body>
+<!-- loader -->
+<div id="loader">
+<div class="spinner-border text-primary" role="status"></div>
+</div>
+<!-- * loader -->
+<!-- App Header -->
+<div class="appHeader bg-primary text-light">
+<div class="left">
+<a href="../kuis.html" class="headerButton goBack">
+<ion-icon name="arrow-back"></ion-icon>
+</a>
+</div>
+<div class="pageTitle">BelajarSKD</div>
+<div class="right"></div>
+</div>
+<!-- * App Header -->
+<!-- App Capsule -->
+<div id="appCapsule">
+<div id="atas" class="blog-post mt-2">
+<h1 class="title">Kuis TIU Bagian 1 </h1><hr>
+<div class="post-body">
+<div class="jumbotron bg-gradient text-center shadow-lg shadow-lg rounded-lg mt-2" id="nilai">
+<p class="text-white display-4">Skor Kuis</p>      
+<p class="font-weight-bold display-3"><kbd><span id="nilainya"></span>/<span>50</span></kbd></p>
+</div>     
+<ol class="semua">
+<li class="nomor">
+<div>Atasan   menyuruh   saya   untuk   megikuti  sebuah  pelatihan pada akhir pekan di luar  kota.   Padahal   saat   itu   saya   sedang  menyelesaikan   pekerjaan   kantor   yang  mendesak. Saya akan ...</div>
+<ol class="opsinya">
+<li><input type="radio" id="1a" class="pilih" name="1" poin="1" value="a"><label for="1a"><span class="pilihannya" status="1" poin="1">Mengikuti    pelatihan    dan    menunda  mengerjakan pekerjaan saya<span class="pointkp"> (1)</span></span></label></li>
+<li><input type="radio" id="1b" class="pilih" name="1" poin="2" value="b"><label for="1b"><span class="pilihannya" status="1" poin="2">Mengikuti    pelatihan    dan    meminta  teman untuk menyelesaikan pekerjaan saya<span class="pointkp"> (2)</span></span></label></li>
+<li><input type="radio" id="1c" class="pilih" name="1" poin="5" value="c"><label for="1c"><span class="pilihannya" status="1" poin="5">Segera menyelesaikan pekerjaan saya  dan kemudian mengikuti pelatihan<span class="pointkp"> (5)</span></span></label></li>
+<li><input type="radio" id="1d" class="pilih" name="1" poin="3" value="d"><label for="1d"><span class="pilihannya" status="1" poin="3">Mengikuti  pelatihan  sambil  membawa  pekerjaan   saya   untuk   dikerjakan   di  tempat pelatihan<span class="pointkp"> (3)</span></span></label></li>
+<li><input type="radio" id="1e" class="pilih" name="1" poin="4" value="e"><label for="1e"><span class="pilihannya" status="1" poin="4">Menolak dengan halus perintah atasan  dan   tetap   menyelesaikan   pekerjaan  saya<span class="pointkp"> (4)</span></span></label></li>
+</ol>
+</li>
+<li class="nomor">
+<div>Jarak dari rumah ke tempat kerja 30 menit dengan bus. Tanpa diketahui sebelumnya selama kendaraan umum melakukan mogok aksi. Dalam kejadian itu saya..</div>
+<ol class="opsinya">
+<li><input type="radio" id="2a" class="pilih" name="2" poin="4" value="a"><label for="2a"><span class="pilihannya" status="2" poin="4">  Saya akan berjalan kaki sedapat mungkin<span class="pointkp"> (4)</span></span></label></li>
+<li><input type="radio" id="2b" class="pilih" name="2" poin="1" value="b"><label for="2b"><span class="pilihannya" status="2" poin="1"> Lebih baik pulang dan tidak usah masuk kerja<span class="pointkp"> (1)</span></span></label></li>
+<li><input type="radio" id="2c" class="pilih" name="2" poin="5" value="c"><label for="2c"><span class="pilihannya" status="2" poin="5"> Saya akan berjalan kaki sambil berusaha mencari tumpangan<span class="pointkp"> (5)</span></span></label></li>
+<li><input type="radio" id="2d" class="pilih" name="2" poin="3" value="d"><label for="2d"><span class="pilihannya" status="2" poin="3"> Saya tetap menunggu siapa tahu seseorang yang akan member tumpangan<span class="pointkp"> (3)</span></span></label></li>
+<li><input type="radio" id="2e" class="pilih" name="2" poin="2" value="e"><label for="2e"><span class="pilihannya" status="2" poin="2"> Saya berusaha menyetop kendaraan <span class="pointkp"> (2)</span></span></label></li>
+</ol>
+</li>
+<li class="nomor">
+<div>instansi anda terpilih menjadi tuan rumah penyelenggaraan pekan olahraga. Untuk mensukseskan acara tersebut yang akan anda lakukan adalah...</div>
+<ol class="opsinya">
+<li><input type="radio" id="3a" class="pilih" name="3" poin="4" value="a"><label for="3a"><span class="pilihannya" status="3" poin="4">  Membuat acara semeriah mungkin sehingga meninggalkan kesan<span class="pointkp"> (4)</span></span></label></li>
+<li><input type="radio" id="3b" class="pilih" name="3" poin="5" value="b"><label for="3b"><span class="pilihannya" status="3" poin="5"> Mengkoordinir rekan kerja untuk menghubungi vendor yang berpengalamandan sponsor yang  dapat menunjang suksesnya acara tersebut <span class="pointkp"> (5)</span></span></label></li>
+<li><input type="radio" id="3c" class="pilih" name="3" poin="2" value="c"><label for="3c"><span class="pilihannya" status="3" poin="2">Mencari pelatih yang terbaik untuk mendapatkan juara umum<span class="pointkp"> (2)</span></span></label></li>
+<li><input type="radio" id="3d" class="pilih" name="3" poin="3" value="d"><label for="3d"><span class="pilihannya" status="3" poin="3"> Menyiapkan fasilitas memadai<span class="pointkp"> (3)</span></span></label></li>
+<li><input type="radio" id="3e" class="pilih" name="3" poin="1" value="e"><label for="3e"><span class="pilihannya" status="3" poin="1"> Mempersiapkan atlet-atlet yang akan bertanding <span class="pointkp"> (1)</span></span></label></li>
+</ol>
+</li>
+<li class="nomor">
+<div>Semenjak musim kemarau melanda negeri ini terutama didaerah tempat tinggal anda. Membuat masyarakat disekitar harus berhemat dalam penggunaan air untuk kebutuhan rumah tangga dan keperluan sehari-hari lainnya. Satu satunya sumber air yaitu berasal dari air PDAM yang mengalir disetiap rumah warga. Namun akhir-akhir ini aliran air tersebut sering mati, terutama pada saat pagi hari dimana semua orang membutuhkannya untuk berbagai aktivitas mulai dari memasak sampai dengan untuk kebutuhan mandi sebelum menjalankan aktivitas. Hal apa yang akan anda lakukan....</div>
+<ol class="opsinya">
+<li><input type="radio" id="4a" class="pilih" name="4" poin="3" value="a"><label for="4a"><span class="pilihannya" status="4" poin="3">Mengajukan protes kepada pihak penyedia jasa air yaitu PDAM agar pada saat pagi hari aliran air tidak mati karena ini merupakan hak warga<span class="pointkp"> (3)</span></span></label></li>
+<li><input type="radio" id="4b" class="pilih" name="4" poin="1" value="b"><label for="4b"><span class="pilihannya" status="4" poin="1">Santai saja, saya bisa meminta air untuk kebutuhan memasak dan mandi kepada tetangga<span class="pointkp"> (1)</span></span></label></li>
+<li><input type="radio" id="4c" class="pilih" name="4" poin="2" value="c"><label for="4c"><span class="pilihannya" status="4" poin="2">Menggunakan air seadanya untuk memasak dan kebutuhan mandi sebelum berangkat ke kantor agar tidak terlambat<span class="pointkp"> (2)</span></span></label></li>
+<li><input type="radio" id="4d" class="pilih" name="4" poin="4" value="d"><label for="4d"><span class="pilihannya" status="4" poin="4">Meminta suami/istri untuk membeli air gallon setiap harinya untuk kebutuhan memasak dan mandi anggota kelurga<span class="pointkp"> (4)</span></span></label></li>
+<li><input type="radio" id="4e" class="pilih" name="4" poin="5" value="e"><label for="4e"><span class="pilihannya" status="4" poin="5">Menampung air dimalam hari sebagai cadangan untuk kebutuhan dipagi hari<span class="pointkp"> (5)</span></span></label></li>
+</ol>
+</li>
+<li class="nomor">
+<div>Anda sedang sakit parah, maka Anda akan...</div>
+<ol class="opsinya">
+<li><input type="radio" id="5a" class="pilih" name="5" poin="5" value="a"><label for="5a"><span class="pilihannya" status="5" poin="5">  Pergi ke dokter agar tidak bertambah parah<span class="pointkp"> (5)</span></span></label></li>
+<li><input type="radio" id="5b" class="pilih" name="5" poin="2" value="b"><label for="5b"><span class="pilihannya" status="5" poin="2"> Berdiam diri di rumah<span class="pointkp"> (2)</span></span></label></li>
+<li><input type="radio" id="5c" class="pilih" name="5" poin="3" value="c"><label for="5c"><span class="pilihannya" status="5" poin="3"> Izin tidak masuk kerja<span class="pointkp"> (3)</span></span></label></li>
+<li><input type="radio" id="5d" class="pilih" name="5" poin="1" value="d"><label for="5d"><span class="pilihannya" status="5" poin="1"> Bermalas-malasan di kantor<span class="pointkp"> (1)</span></span></label></li>
+<li><input type="radio" id="5e" class="pilih" name="5" poin="4" value="e"><label for="5e"><span class="pilihannya" status="5" poin="4"> Tetap mengerjakan tugas seperti biasanya <span class="pointkp"> (4)</span></span></label></li>
+</ol>
+</li>
+<li class="nomor">
+<div>Saya  berhasil  mengatasi  permasalahan  terutama karena...</div>
+<ol class="opsinya">
+<li><input type="radio" id="6a" class="pilih" name="6" poin="2" value="a"><label for="6a"><span class="pilihannya" status="6" poin="2">Nasib baik ada di tangan saya<span class="pointkp"> (2)</span></span></label></li>
+<li><input type="radio" id="6b" class="pilih" name="6" poin="1" value="b"><label for="6b"><span class="pilihannya" status="6" poin="1">Saya   berani   mencoba   hal - hal   yang  tidak berisiko<span class="pointkp"> (1)</span></span></label></li>
+<li><input type="radio" id="6c" class="pilih" name="6" poin="3" value="c"><label for="6c"><span class="pilihannya" status="6" poin="3">Saya  berani  mencoba  dengan  segala  risikonya<span class="pointkp"> (3)</span></span></label></li>
+<li><input type="radio" id="6d" class="pilih" name="6" poin="4" value="d"><label for="6d"><span class="pilihannya" status="6" poin="4">Saya  mendapat  bantuan  dari  lingkungan<span class="pointkp"> (4)</span></span></label></li>
+<li><input type="radio" id="6e" class="pilih" name="6" poin="5" value="e"><label for="6e"><span class="pilihannya" status="6" poin="5">Saya   tidak   putus   asa   menghadapi  kegagalan<span class="pointkp"> (5)</span></span></label></li>
+</ol>
+</li>
+<li class="nomor">
+<div>Anda ditawari pekerjaan oleh salah seorang rekan Anda, namun pekerjaan tersebut berada di luar kota dan Anda tidak memiliki satu kerabat pun di sana. Sikap Anda? </div>
+<ol class="opsinya">
+<li><input type="radio" id="7a" class="pilih" name="7" poin="3" value="a"><label for="7a"><span class="pilihannya" status="7" poin="3">Meminta pertimbangan pada keluarga terdekat <span class="pointkp"> (3)</span></span></label></li>
+<li><input type="radio" id="7b" class="pilih" name="7" poin="1" value="b"><label for="7b"><span class="pilihannya" status="7" poin="1">Menolaknya karena tempatnya jauh dari rumah <span class="pointkp"> (1)</span></span></label></li>
+<li><input type="radio" id="7c" class="pilih" name="7" poin="5" value="c"><label for="7c"><span class="pilihannya" status="7" poin="5">Menerimanya dan mempersiapkan segala hal yang dibutuhkan <span class="pointkp"> (5)</span></span></label></li>
+<li><input type="radio" id="7d" class="pilih" name="7" poin="4" value="d"><label for="7d"><span class="pilihannya" status="7" poin="4">Menundanya lebih dulu sambil mempersiapkan kebutuhan untuk tinggal di luar kota<span class="pointkp"> (4)</span></span></label></li>
+<li><input type="radio" id="7e" class="pilih" name="7" poin="2" value="e"><label for="7e"><span class="pilihannya" status="7" poin="2">Tidak terlalu peduli karena bukan passion saya <span class="pointkp"> (2)</span></span></label></li>
+</ol>
+</li>
+<li class="nomor">
+<div>Saat sedang mengerjakan tugas bersama, beberapa rekan tim saya meminta ijin untuk pulang lebih dahulu. Sikap saya sebagai ketua tim kerja ... </div>
+<ol class="opsinya">
+<li><input type="radio" id="8a" class="pilih" name="8" poin="3" value="a"><label for="8a"><span class="pilihannya" status="8" poin="3">Meminta mereka untuk mempertimbangkannya kembali <span class="pointkp"> (3)</span></span></label></li>
+<li><input type="radio" id="8b" class="pilih" name="8" poin="4" value="b"><label for="8b"><span class="pilihannya" status="8" poin="4">Memaksa mereka untuk tetap tinggal dan mengerjakan tugas<span class="pointkp"> (4)</span></span></label></li>
+<li><input type="radio" id="8c" class="pilih" name="8" poin="2" value="c"><label for="8c"><span class="pilihannya" status="8" poin="2">Mempersilakan mereka pergi karena memang sangat penting <span class="pointkp"> (2)</span></span></label></li>
+<li><input type="radio" id="8d" class="pilih" name="8" poin="1" value="d"><label for="8d"><span class="pilihannya" status="8" poin="1">Mempersilakan mereka pergi meskipun berat hat<span class="pointkp"> (1)</span></span></label></li>
+<li><input type="radio" id="8e" class="pilih" name="8" poin="5" value="e"><label for="8e"><span class="pilihannya" status="8" poin="5">Meminta mereka menyelesaikan tanggung jawab mereka sebelum pergi <span class="pointkp"> (5)</span></span></label></li>
+</ol>
+</li>
+<li class="nomor">
+<div>Jika atasan Anda meminta bantuan kepada Anda, maka Anda akan...</div>
+<ol class="opsinya">
+<li><input type="radio" id="9a" class="pilih" name="9" poin="4" value="a"><label for="9a"><span class="pilihannya" status="9" poin="4">  Segera membantu<span class="pointkp"> (4)</span></span></label></li>
+<li><input type="radio" id="9b" class="pilih" name="9" poin="3" value="b"><label for="9b"><span class="pilihannya" status="9" poin="3"> Berpikir dulu sebelum membantu<span class="pointkp"> (3)</span></span></label></li>
+<li><input type="radio" id="9c" class="pilih" name="9" poin="2" value="c"><label for="9c"><span class="pilihannya" status="9" poin="2"> Mempertimbangkan berapa banyak tenaga dan waktunya<span class="pointkp"> (2)</span></span></label></li>
+<li><input type="radio" id="9d" class="pilih" name="9" poin="1" value="d"><label for="9d"><span class="pilihannya" status="9" poin="1"> Bertanya apa keuntungan yang Anda dapatkan<span class="pointkp"> (1)</span></span></label></li>
+<li><input type="radio" id="9e" class="pilih" name="9" poin="5" value="e"><label for="9e"><span class="pilihannya" status="9" poin="5"> Senang karena Anda dibutuhkan <span class="pointkp"> (5)</span></span></label></li>
+</ol>
+</li>
+<li class="nomor">
+<div> Ridwan diminta menyimpan dokumen penilaian kinerja seluruh karyawan PT Maju Lancar oleh manajer SDM karena mendadak harus pergi, dengan pesan jangan dibuka karena datanya bersifat rahasia. Tidak ada seorangpun yang tahu bahwa Anda diberi kepercayaan tersebut. Dalam dokumen tersebut memuat data-data tentang pegawai-pegawai yang akan dipromosikan. Ridwan adalah salah satu pegawai yang akan dipromosikan tersebut. Jika Anda sebagai Ridwan, tindakan yang akan Anda lakukan adalah ....</div>
+<ol class="opsinya">
+<li><input type="radio" id="10a" class="pilih" name="10" poin="3" value="a"><label for="10a"><span class="pilihannya" status="10" poin="3">Melihat dokumen tersebut khusus dokumen yang berkaitan dengan diri Anda<span class="pointkp"> (3)</span></span></label></li>
+<li><input type="radio" id="10b" class="pilih" name="10" poin="2" value="b"><label for="10b"><span class="pilihannya" status="10" poin="2">Melihat seluruh dokumen pegawai yang dicalonkan untuk promosi sekedar untuk mengetahui saja tanpa memberi tahu orang lain<span class="pointkp"> (2)</span></span></label></li>
+<li><input type="radio" id="10c" class="pilih" name="10" poin="5" value="c"><label for="10c"><span class="pilihannya" status="10" poin="5">Tidak membuka dokumen karena sudah dipesan untuk tidak membukanya (menjaga rahasia)<span class="pointkp"> (5)</span></span></label></li>
+<li><input type="radio" id="10d" class="pilih" name="10" poin="1" value="d"><label for="10d"><span class="pilihannya" status="10" poin="1">Mengajak satu teman yang Anda percaya untuk membuka sekedar untuk melihat data Anda tan pa membocorkan kepada orang lain<span class="pointkp"> (1)</span></span></label></li>
+<li><input type="radio" id="10e" class="pilih" name="10" poin="4" value="e"><label for="10e"><span class="pilihannya" status="10" poin="4">Menanyakan langsung secara pribadi kepada manajer SDM tentang kesempatan Anda untuk dipromosikan<span class="pointkp"> (4)</span></span></label></li>
+</ol>
+</li>
+</ol>
+<button id="selesai" class="btn btn-primary btn-lg btn-block" style="text-align: center;">Lihat Skor</button>
+<button id="kuis_lagi" class="btn btn-danger btn-lg mx-auto">Kuis Lagi</button>
+<br><br>
+</div>
+</div>
+</div>
+<!-- * App Capsule -->
+<!-- ///////////// Js Files ////////////////////  -->
+<!-- Jquery -->
+<script src="../assets/js/jquery-3.4.1.min.js"></script>
+<!-- Bootstrap-->
+<script src="../assets/js/popper.min.js"></script>
+<script src="../assets/js/bootstrap.min.js"></script>
+<!-- Ionicons -->
+<script type="module" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.js"></script>
+<!-- Base Js File -->
+<script src="../assets/js/base.js"></script>
+<script src="../src/kuis.js"></script>
+</body>
+</html>

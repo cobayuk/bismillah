@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport"
+content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="theme-color" content="#000000">
+<title>BelajarSKD</title>
+<meta name="description" content="Tempat belajar terbaik untuk persiapan masuk perguruan tinggi kedinasan"/>
+<meta name="keywords" content="Bimbel IPDN, Bimbel STAN, Bimbel STIS, Bimbel Akpol, Bimbel Akmil" />
+<!-- CSS Penting -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="../assets/css/style.css">
+<link rel="stylesheet" href="../src/kuis.css">
+</head>
+<body>
+<!-- loader -->
+<div id="loader">
+<div class="spinner-border text-primary" role="status"></div>
+</div>
+<!-- * loader -->
+<!-- App Header -->
+<div class="appHeader bg-primary text-light">
+<div class="left">
+<a href="../kuis.html" class="headerButton goBack">
+<ion-icon name="arrow-back"></ion-icon>
+</a>
+</div>
+<div class="pageTitle">BelajarSKD</div>
+<div class="right"></div>
+</div>
+<!-- * App Header -->
+<!-- App Capsule -->
+<div id="appCapsule">
+<div id="atas" class="blog-post mt-2">
+<h1 class="title">Kuis TIU Bagian 1 </h1><hr>
+<div class="post-body">
+<div class="jumbotron bg-gradient text-center shadow-lg shadow-lg rounded-lg mt-2" id="nilai">
+<p class="text-white display-4">Skor Kuis</p>      
+<p class="font-weight-bold display-3"><kbd><span id="nilainya"></span>/<span>50</span></kbd></p>
+</div>     
+<ol class="semua">
+<li class="nomor">
+<div>Suatu kepanitiaan, sedang membicarakan berbagai topik kegiatan, sebagai salah satu panitia saya..</div>
+<ol class="opsinya">
+<li><input type="radio" id="1a" class="pilih" name="1" poin="1" value="a"><label for="1a"><span class="pilihannya" status="1" poin="1">  Mengambil bagian ketika situasi memaksa<span class="pointkp"> (1)</span></span></label></li>
+<li><input type="radio" id="1b" class="pilih" name="1" poin="3" value="b"><label for="1b"><span class="pilihannya" status="1" poin="3"> Lebih baik mendengarkan saja<span class="pointkp"> (3)</span></span></label></li>
+<li><input type="radio" id="1c" class="pilih" name="1" poin="4" value="c"><label for="1c"><span class="pilihannya" status="1" poin="4"> Mengambil bagian dalam setiap topik kegiatan<span class="pointkp"> (4)</span></span></label></li>
+<li><input type="radio" id="1d" class="pilih" name="1" poin="2" value="d"><label for="1d"><span class="pilihannya" status="1" poin="2"> Suka menerima hasilnya<span class="pointkp"> (2)</span></span></label></li>
+<li><input type="radio" id="1e" class="pilih" name="1" poin="5" value="e"><label for="1e"><span class="pilihannya" status="1" poin="5"> Mengambil bagian dalam topik pembicaraan yang sesuai dengan bidang saya <span class="pointkp"> (5)</span></span></label></li>
+</ol>
+</li>
+<li class="nomor">
+<div> Sebagai seorang abdi negara, saya akan .... </div>
+<ol class="opsinya">
+<li><input type="radio" id="2a" class="pilih" name="2" poin="4" value="a"><label for="2a"><span class="pilihannya" status="2" poin="4">Melaksanakan aturan dan prosedur pelayanan publik yang berlaku<span class="pointkp"> (4)</span></span></label></li>
+<li><input type="radio" id="2b" class="pilih" name="2" poin="1" value="b"><label for="2b"><span class="pilihannya" status="2" poin="1">Memilih posisi yang secara langsung berperan dalam pelayanan publik<span class="pointkp"> (1)</span></span></label></li>
+<li><input type="radio" id="2c" class="pilih" name="2" poin="5" value="c"><label for="2c"><span class="pilihannya" status="2" poin="5">Memberikan pelayanan pada masyarakat sesuai tuntutan pekerjaan saya<span class="pointkp"> (5)</span></span></label></li>
+<li><input type="radio" id="2d" class="pilih" name="2" poin="2" value="d"><label for="2d"><span class="pilihannya" status="2" poin="2">Menginformasikan bentuk layanan yang dapat dimanfaatkan masyarakat<span class="pointkp"> (2)</span></span></label></li>
+<li><input type="radio" id="2e" class="pilih" name="2" poin="3" value="e"><label for="2e"><span class="pilihannya" status="2" poin="3">Berusaha memahami kebutuhan masyarakat dalam memberikan pelayanan<span class="pointkp"> (3)</span></span></label></li>
+</ol>
+</li>
+<li class="nomor">
+<div>Seorang teman merokok di hadapan saya, padahal saya sangat membenci asap rokok. Saya akan .... </div>
+<ol class="opsinya">
+<li><input type="radio" id="3a" class="pilih" name="3" poin="4" value="a"><label for="3a"><span class="pilihannya" status="3" poin="4">Memintanya dengan sopan untuk mematikan rokoknya <span class="pointkp"> (4)</span></span></label></li>
+<li><input type="radio" id="3b" class="pilih" name="3" poin="1" value="b"><label for="3b"><span class="pilihannya" status="3" poin="1">Diam sembari menutup hidung berharap pengertiannya <span class="pointkp"> (1)</span></span></label></li>
+<li><input type="radio" id="3c" class="pilih" name="3" poin="5" value="c"><label for="3c"><span class="pilihannya" status="3" poin="5">Memberitahukannya bahwa saya sangat membenci rokok <span class="pointkp"> (5)</span></span></label></li>
+<li><input type="radio" id="3d" class="pilih" name="3" poin="2" value="d"><label for="3d"><span class="pilihannya" status="3" poin="2">Pergi menghindar<span class="pointkp"> (2)</span></span></label></li>
+<li><input type="radio" id="3e" class="pilih" name="3" poin="3" value="e"><label for="3e"><span class="pilihannya" status="3" poin="3">Marah dan memintanya untuk merokok di tempat lain <span class="pointkp"> (3)</span></span></label></li>
+</ol>
+</li>
+<li class="nomor">
+<div>Teman sekantor saya mengalami musibah, disaat yang sama ada pekerjaan penting yang harus diselesaikan, saya?. </div>
+<ol class="opsinya">
+<li><input type="radio" id="4a" class="pilih" name="4" poin="5" value="a"><label for="4a"><span class="pilihannya" status="4" poin="5"> Memprioritaskan teman saya, karena kami bagaikan keluarga<span class="pointkp"> (5)</span></span></label></li>
+<li><input type="radio" id="4b" class="pilih" name="4" poin="3" value="b"><label for="4b"><span class="pilihannya" status="4" poin="3"> Menunda pekerjaan saya dan pergi untuk melihat kondisinya<span class="pointkp"> (3)</span></span></label></li>
+<li><input type="radio" id="4c" class="pilih" name="4" poin="1" value="c"><label for="4c"><span class="pilihannya" status="4" poin="1"> Teman saya pasti mengerti jika saya sibuk<span class="pointkp"> (1)</span></span></label></li>
+<li><input type="radio" id="4d" class="pilih" name="4" poin="4" value="d"><label for="4d"><span class="pilihannya" status="4" poin="4"> Bersama teman-teman yang lain pergi untuk melihat kondisinya<span class="pointkp"> (4)</span></span></label></li>
+<li><input type="radio" id="4e" class="pilih" name="4" poin="2" value="e"><label for="4e"><span class="pilihannya" status="4" poin="2"> Menelefon untuk memastikan kondisinya lalu kembali bekerja <span class="pointkp"> (2)</span></span></label></li>
+</ol>
+</li>
+<li class="nomor">
+<div>Diprediksikan    akan    banyak    pegawai  terkena PHK minggu ini, maka saya  ...</div>
+<ol class="opsinya">
+<li><input type="radio" id="5a" class="pilih" name="5" poin="3" value="a"><label for="5a"><span class="pilihannya" status="5" poin="3">Susah tidur<span class="pointkp"> (3)</span></span></label></li>
+<li><input type="radio" id="5b" class="pilih" name="5" poin="4" value="b"><label for="5b"><span class="pilihannya" status="5" poin="4">Depresi  berat,  karena  ada  kemungkinan saya terkena PHK<span class="pointkp"> (4)</span></span></label></li>
+<li><input type="radio" id="5c" class="pilih" name="5" poin="5" value="c"><label for="5c"><span class="pilihannya" status="5" poin="5">Berhati - hati    dan    berhemat    dalam  membelanjakan  uang,  karena  setelah  ini  mungkin  saya akan jadi pengangguran<span class="pointkp"> (5)</span></span></label></li>
+<li><input type="radio" id="5d" class="pilih" name="5" poin="1" value="d"><label for="5d"><span class="pilihannya" status="5" poin="1">Yang akan terjadi biarlah terjadi<span class="pointkp"> (1)</span></span></label></li>
+<li><input type="radio" id="5e" class="pilih" name="5" poin="2" value="e"><label for="5e"><span class="pilihannya" status="5" poin="2">Prediksi yang menyusahkan seperti itu  tak perlu saya percayai<span class="pointkp"> (2)</span></span></label></li>
+</ol>
+</li>
+<li class="nomor">
+<div>Ketika atasan saya tidak berada di kantor terjadi permasalahan di kantor yang membutuhkan kebijaksanaannya. Maka saya akan...</div>
+<ol class="opsinya">
+<li><input type="radio" id="6a" class="pilih" name="6" poin="3" value="a"><label for="6a"><span class="pilihannya" status="6" poin="3">  Diam saja hingga atasan Anda dating <span class="pointkp"> (3)</span></span></label></li>
+<li><input type="radio" id="6b" class="pilih" name="6" poin="4" value="b"><label for="6b"><span class="pilihannya" status="6" poin="4">Mengambil keputusan yang tepat menurut Anda agar permasalahan yang ada bisa secepatnya diselesaikan<span class="pointkp"> (4)</span></span></label></li>
+<li><input type="radio" id="6c" class="pilih" name="6" poin="5" value="c"><label for="6c"><span class="pilihannya" status="6" poin="5"> Bermusyawarah dengan rekan Anda yang lain sebelum memutuskan untuk megambil tindakan<span class="pointkp"> (5)</span></span></label></li>
+<li><input type="radio" id="6d" class="pilih" name="6" poin="1" value="d"><label for="6d"><span class="pilihannya" status="6" poin="1"> Takut mengambil keputusan karena tidak siap menanggung risikoya<span class="pointkp"> (1)</span></span></label></li>
+<li><input type="radio" id="6e" class="pilih" name="6" poin="2" value="e"><label for="6e"><span class="pilihannya" status="6" poin="2"> Meminta pendapat dari atasan saja <span class="pointkp"> (2)</span></span></label></li>
+</ol>
+</li>
+<li class="nomor">
+<div>Anda  menerima  perintah  tugas  ke  luar  kota. Kebetulan pekerjaan  anda di kantor  menumpuk dan harus diselesaikan. Maka  tindakan    yang    akan    anda    lakukan  adalah...</div>
+<ol class="opsinya">
+<li><input type="radio" id="7a" class="pilih" name="7" poin="3" value="a"><label for="7a"><span class="pilihannya" status="7" poin="3">Meminta   atasan   untuk   memberikan  perpanjangan   waktu   menyelesaikan  tugas tersebut<span class="pointkp"> (3)</span></span></label></li>
+<li><input type="radio" id="7b" class="pilih" name="7" poin="2" value="b"><label for="7b"><span class="pilihannya" status="7" poin="2">Meminta   atasan   untuk   keluar   kota  setelah anda menyelesaikan pekerjaan  anda<span class="pointkp"> (2)</span></span></label></li>
+<li><input type="radio" id="7c" class="pilih" name="7" poin="5" value="c"><label for="7c"><span class="pilihannya" status="7" poin="5">Mengkoordinasikan  tugas  yang  dapat  dipercayakan    kepada    rekan    kerja, selain     tidak     menyalahi     prosedur 
+pekerjaan   dapat   diselesaikan   tepat 
+waktu<span class="pointkp"> (5)</span></span></label></li>
+<li><input type="radio" id="7d" class="pilih" name="7" poin="4" value="d"><label for="7d"><span class="pilihannya" status="7" poin="4">Membawa  pekerjaan  tersebut  ke  luar  kota.   Sehingga   dapat   diselesaikan  tepat waktu<span class="pointkp"> (4)</span></span></label></li>
+<li><input type="radio" id="7e" class="pilih" name="7" poin="1" value="e"><label for="7e"><span class="pilihannya" status="7" poin="1">Menyelesaikan semampu Anda<span class="pointkp"> (1)</span></span></label></li>
+</ol>
+</li>
+<li class="nomor">
+<div>Saya memiliki keinginan untuk bersekolah, maka saya harus mempersiapkan...</div>
+<ol class="opsinya">
+<li><input type="radio" id="8a" class="pilih" name="8" poin="5" value="a"><label for="8a"><span class="pilihannya" status="8" poin="5">  Rencana pendidikan saya<span class="pointkp"> (5)</span></span></label></li>
+<li><input type="radio" id="8b" class="pilih" name="8" poin="4" value="b"><label for="8b"><span class="pilihannya" status="8" poin="4"> Proposal pendidikan saya<span class="pointkp"> (4)</span></span></label></li>
+<li><input type="radio" id="8c" class="pilih" name="8" poin="3" value="c"><label for="8c"><span class="pilihannya" status="8" poin="3"> Universitas tujuan saya<span class="pointkp"> (3)</span></span></label></li>
+<li><input type="radio" id="8d" class="pilih" name="8" poin="2" value="d"><label for="8d"><span class="pilihannya" status="8" poin="2"> Uang yang saya butuhkan<span class="pointkp"> (2)</span></span></label></li>
+<li><input type="radio" id="8e" class="pilih" name="8" poin="1" value="e"><label for="8e"><span class="pilihannya" status="8" poin="1"> Buku dan kurikulum yang digunakan <span class="pointkp"> (1)</span></span></label></li>
+</ol>
+</li>
+<li class="nomor">
+<div>Pada saat menghadapi tugas yang berat dan menuntut kemampuan tinggi , saya..</div>
+<ol class="opsinya">
+<li><input type="radio" id="9a" class="pilih" name="9" poin="4" value="a"><label for="9a"><span class="pilihannya" status="9" poin="4">  Berusaha sedikit demi sedikit untuk menyelesaikan walau memakan waktu panjang<span class="pointkp"> (4)</span></span></label></li>
+<li><input type="radio" id="9b" class="pilih" name="9" poin="5" value="b"><label for="9b"><span class="pilihannya" status="9" poin="5"> Berusaha mencari cara penyelesaian yang tidak membutuhkan waktu panjang<span class="pointkp"> (5)</span></span></label></li>
+<li><input type="radio" id="9c" class="pilih" name="9" poin="1" value="c"><label for="9c"><span class="pilihannya" status="9" poin="1"> Meninggalkan tugas begitu saja<span class="pointkp"> (1)</span></span></label></li>
+<li><input type="radio" id="9d" class="pilih" name="9" poin="2" value="d"><label for="9d"><span class="pilihannya" status="9" poin="2"> Berhenti untuk mencari selingan<span class="pointkp"> (2)</span></span></label></li>
+<li><input type="radio" id="9e" class="pilih" name="9" poin="3" value="e"><label for="9e"><span class="pilihannya" status="9" poin="3"> Berusaha untuk mencari bantuan orang lain <span class="pointkp"> (3)</span></span></label></li>
+</ol>
+</li>
+<li class="nomor">
+<div>Ada  seorang  teman  yang  tidak  mampu  membayar   uang   ujian   anaknya,   maka  saya .. .</div>
+<ol class="opsinya">
+<li><input type="radio" id="10a" class="pilih" name="10" poin="4" value="a"><label for="10a"><span class="pilihannya" status="10" poin="4">Membantu  membayar  sebagian  biaya  dengan tabungan saya<span class="pointkp"> (4)</span></span></label></li>
+<li><input type="radio" id="10b" class="pilih" name="10" poin="2" value="b"><label for="10b"><span class="pilihannya" status="10" poin="2">Merasa kasihan dan  menghiburnya<span class="pointkp"> (2)</span></span></label></li>
+<li><input type="radio" id="10c" class="pilih" name="10" poin="1" value="c"><label for="10c"><span class="pilihannya" status="10" poin="1">Menganggap hal itu biasa saja<span class="pointkp"> (1)</span></span></label></li>
+<li><input type="radio" id="10d" class="pilih" name="10" poin="3" value="d"><label for="10d"><span class="pilihannya" status="10" poin="3">Membayar   dengan   uang   tabungan  saya untuk membayar<span class="pointkp"> (3)</span></span></label></li>
+<li><input type="radio" id="10e" class="pilih" name="10" poin="5" value="e"><label for="10e"><span class="pilihannya" status="10" poin="5">Mengkoordinir teman untuk iuran guna  membayar biayanya<span class="pointkp"> (5)</span></span></label></li>
+</ol>
+</li>
+</ol>
+<button id="selesai" class="btn btn-primary btn-lg btn-block" style="text-align: center;">Lihat Skor</button>
+<button id="kuis_lagi" class="btn btn-danger btn-lg mx-auto">Kuis Lagi</button>
+<br><br>
+</div>
+</div>
+</div>
+<!-- * App Capsule -->
+<!-- ///////////// Js Files ////////////////////  -->
+<!-- Jquery -->
+<script src="../assets/js/jquery-3.4.1.min.js"></script>
+<!-- Bootstrap-->
+<script src="../assets/js/popper.min.js"></script>
+<script src="../assets/js/bootstrap.min.js"></script>
+<!-- Ionicons -->
+<script type="module" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.js"></script>
+<!-- Base Js File -->
+<script src="../assets/js/base.js"></script>
+<script src="../src/kuis.js"></script>
+</body>
+</html>

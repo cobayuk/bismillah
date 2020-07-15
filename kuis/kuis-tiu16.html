@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport"
+content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="theme-color" content="#000000">
+<title>BelajarSKD</title>
+<meta name="description" content="Tempat belajar terbaik untuk persiapan masuk perguruan tinggi kedinasan"/>
+<meta name="keywords" content="Bimbel IPDN, Bimbel STAN, Bimbel STIS, Bimbel Akpol, Bimbel Akmil" />
+<!-- CSS Penting -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="../assets/css/style.css">
+<link rel="stylesheet" href="../src/kuis.css">
+</head>
+<body>
+<!-- loader -->
+<div id="loader">
+<div class="spinner-border text-primary" role="status"></div>
+</div>
+<!-- * loader -->
+<!-- App Header -->
+<div class="appHeader bg-primary text-light">
+<div class="left">
+<a href="../kuis.html" class="headerButton goBack">
+<ion-icon name="arrow-back"></ion-icon>
+</a>
+</div>
+<div class="pageTitle">BelajarSKD</div>
+<div class="right"></div>
+</div>
+<!-- * App Header -->
+<!-- App Capsule -->
+<div id="appCapsule">
+<div id="atas" class="blog-post mt-2">
+<h1 class="title">Kuis TIU Bagian 1 </h1><hr>
+<div class="post-body">
+<div class="jumbotron bg-gradient text-center shadow-lg shadow-lg rounded-lg mt-2" id="nilai">
+<p class="text-white display-4">Skor Kuis</p>      
+<p class="font-weight-bold display-3"><kbd><span id="nilainya"></span>/<span>100</span></kbd></p>
+</div>     
+<ol class="semua">
+<li class="nomor">
+<div>5, 5, 7, 9, 11, 13, 13, 17, .....</div>
+<ol class="opsinya">
+<li><input type="radio" id="1a" class="pilih" name="1" poin="10" value="a"><label for="1a"><span class="pilihannya" status="1" poin="5">17, 19</span></label></li>
+<li><input type="radio" id="1b" class="pilih" name="1" poin="0" value="b"><label for="1b"><span class="pilihannya" status="1" poin="0">17, 21</span></label></li>
+<li><input type="radio" id="1c" class="pilih" name="1" poin="0" value="c"><label for="1c"><span class="pilihannya" status="1" poin="0">19, 19</span></label></li>
+<li><input type="radio" id="1d" class="pilih" name="1" poin="0" value="d"><label for="1d"><span class="pilihannya" status="1" poin="0">19, 21</span></label></li>
+<li><input type="radio" id="1e" class="pilih" name="1" poin="0" value="e"><label for="1e"><span class="pilihannya" status="1" poin="0">21, 23</span></label></li>
+</ol>
+</li>
+<li class="nomor">
+<div>JAM : ... = KALENDER : HARI</div>
+<ol class="opsinya">
+<li><input type="radio" id="2a" class="pilih" name="2" poin="0" value="a"><label for="2a"><span class="pilihannya" status="2" poin="0">Masehi</span></label></li>
+<li><input type="radio" id="2b" class="pilih" name="2" poin="0" value="b"><label for="2b"><span class="pilihannya" status="2" poin="0">Waktu</span></label></li>
+<li><input type="radio" id="2c" class="pilih" name="2" poin="0" value="c"><label for="2c"><span class="pilihannya" status="2" poin="0">Tahun</span></label></li>
+<li><input type="radio" id="2d" class="pilih" name="2" poin="10" value="d"><label for="2d"><span class="pilihannya" status="2" poin="5">Detik</span></label></li>
+<li><input type="radio" id="2e" class="pilih" name="2" poin="0" value="e"><label for="2e"><span class="pilihannya" status="2" poin="0">Jam</span></label></li>
+</ol>
+</li>
+<li class="nomor">
+<div>KONKAF >< ...</div>
+<ol class="opsinya">
+<li><input type="radio" id="3a" class="pilih" name="3" poin="0" value="a"><label for="3a"><span class="pilihannya" status="3" poin="0">Cekung</span></label></li>
+<li><input type="radio" id="3b" class="pilih" name="3" poin="0" value="b"><label for="3b"><span class="pilihannya" status="3" poin="0">Konveksi</span></label></li>
+<li><input type="radio" id="3c" class="pilih" name="3" poin="10" value="c"><label for="3c"><span class="pilihannya" status="3" poin="5">Konveks</span></label></li>
+<li><input type="radio" id="3d" class="pilih" name="3" poin="0" value="d"><label for="3d"><span class="pilihannya" status="3" poin="0">Lensa</span></label></li>
+<li><input type="radio" id="3e" class="pilih" name="3" poin="0" value="e"><label for="3e"><span class="pilihannya" status="3" poin="0">Optik</span></label></li>
+</ol>
+</li>
+<li class="nomor">
+<div> Jika pernyataan "Semua dokter adalah laki-laki," salah, maka .... </div>
+<ol class="opsinya">
+<li><input type="radio" id="4a" class="pilih" name="4" poin="0" value="a"><label for="4a"><span class="pilihannya" status="4" poin="0">Sementara dokter adalah laki-laki</span></label></li>
+<li><input type="radio" id="4b" class="pilih" name="4" poin="0" value="b"><label for="4b"><span class="pilihannya" status="4" poin="0">Sementara laki-laki adalah bukan dokter</span></label></li>
+<li><input type="radio" id="4c" class="pilih" name="4" poin="10" value="c"><label for="4c"><span class="pilihannya" status="4" poin="5">Sementara dokter adalah bukan laki-laki</span></label></li>
+<li><input type="radio" id="4d" class="pilih" name="4" poin="0" value="d"><label for="4d"><span class="pilihannya" status="4" poin="0">Tidak ada dokter yang bukan laki-laki</span></label></li>
+<li><input type="radio" id="4e" class="pilih" name="4" poin="0" value="e"><label for="4e"><span class="pilihannya" status="4" poin="0">Tidak ada kesimpulan</span></label></li>
+</ol>
+</li>
+<li class="nomor">
+<div>Saran yang tepat untuk wacana di atas adalah ...</div>
+<ol class="opsinya">
+<li><input type="radio" id="5a" class="pilih" name="5" poin="0" value="a"><label for="5a"><span class="pilihannya" status="5" poin="0">Hasil pertanian para petani Kulonprogo sangat baik dan mengalami peningkatan dari tahun ke tahun </span></label></li>
+<li><input type="radio" id="5b" class="pilih" name="5" poin="10" value="b"><label for="5b"><span class="pilihannya" status="5" poin="5">Keberhasilan panen pepaya california di Kulonprogo akan lebih baik jika difasilitasi oleh pemerintah kabupaten untuk bibit, benih, dan bantuan alat pertanian </span></label></li>
+<li><input type="radio" id="5c" class="pilih" name="5" poin="0" value="c"><label for="5c"><span class="pilihannya" status="5" poin="0">Keberhasilan panen pepaya di Kulonprogo seharusnya ditunjang dengan kualitas bibit, benih, dan pendampingan dari dinas pertanian setempat </span></label></li>
+<li><input type="radio" id="5d" class="pilih" name="5" poin="0" value="d"><label for="5d"><span class="pilihannya" status="5" poin="0">Sebaiknya petani Kulonprogo fokus memperluas lahan pertanian pepaya california di lingkungan yang berpasir saja </span></label></li>
+<li><input type="radio" id="5e" class="pilih" name="5" poin="0" value="e"><label for="5e"><span class="pilihannya" status="5" poin="0">Hasil pertanian di Kulonprogo sudah mengalami peningkatan dan akan semakin baik jika pemerintah menyediakan fasilitas pertanian yang lebih baik </span></label></li>
+</ol>
+</li>
+<li class="nomor">
+<div>DIAGONAL : SEGI EMPAT = ... : ...</div>
+<ol class="opsinya">
+<li><input type="radio" id="6a" class="pilih" name="6" poin="10" value="a"><label for="6a"><span class="pilihannya" status="6" poin="5">Diameter : Lingkaran</span></label></li>
+<li><input type="radio" id="6b" class="pilih" name="6" poin="0" value="b"><label for="6b"><span class="pilihannya" status="6" poin="0">Tinggi : Segitiga</span></label></li>
+<li><input type="radio" id="6c" class="pilih" name="6" poin="0" value="c"><label for="6c"><span class="pilihannya" status="6" poin="0">Radius : Busur</span></label></li>
+<li><input type="radio" id="6d" class="pilih" name="6" poin="0" value="d"><label for="6d"><span class="pilihannya" status="6" poin="0">Luas : Panjang</span></label></li>
+<li><input type="radio" id="6e" class="pilih" name="6" poin="0" value="e"><label for="6e"><span class="pilihannya" status="6" poin="0">Sudut : Tegak lurus</span></label></li>
+</ol>
+</li>
+<li class="nomor">
+<div>Hubungan nilai a dan b yang tepat adalah: <br>2a + 5 - 2b = 3 <br>3b - 12 = 12</div>
+<ol class="opsinya">
+<li><input type="radio" id="7a" class="pilih" name="7" poin="0" value="a"><label for="7a"><span class="pilihannya" status="7" poin="0">`a + b = 1</span></label></li>
+<li><input type="radio" id="7b" class="pilih" name="7" poin="0" value="b"><label for="7b"><span class="pilihannya" status="7" poin="0">2a = b </span></label></li>
+<li><input type="radio" id="7c" class="pilih" name="7" poin="0" value="c"><label for="7c"><span class="pilihannya" status="7" poin="0">a > b</span></label></li>
+<li><input type="radio" id="7d" class="pilih" name="7" poin="10" value="d"><label for="7d"><span class="pilihannya" status="7" poin="5">a = b - 1</span></label></li>
+<li><input type="radio" id="7e" class="pilih" name="7" poin="0" value="e"><label for="7e"><span class="pilihannya" status="7" poin="0">a = b</span></label></li>
+</ol>
+</li>
+<li class="nomor">
+<div>Jika nilai x terletak diantara y dan z dan (z < 
+x), manakah pernyataan yang benar?</div>
+<ol class="opsinya">
+<li><input type="radio" id="8a" class="pilih" name="8" poin="0" value="a"><label for="8a"><span class="pilihannya" status="8" poin="0">x > y</span></label></li>
+<li><input type="radio" id="8b" class="pilih" name="8" poin="10" value="b"><label for="8b"><span class="pilihannya" status="8" poin="5">x < y</span></label></li>
+<li><input type="radio" id="8c" class="pilih" name="8" poin="0" value="c"><label for="8c"><span class="pilihannya" status="8" poin="0">x = y</span></label></li>
+<li><input type="radio" id="8d" class="pilih" name="8" poin="0" value="d"><label for="8d"><span class="pilihannya" status="8" poin="0">hubungan x dan y tidak dapat ditentukan</span></label></li>
+<li><input type="radio" id="8e" class="pilih" name="8" poin="0" value="e"><label for="8e"><span class="pilihannya" status="8" poin="0">x ≠ y</span></label></li>
+</ol>
+</li>
+<li class="nomor">
+<div>Apatride = ...</div>
+<ol class="opsinya">
+<li><input type="radio" id="9a" class="pilih" name="9" poin="0" value="a"><label for="9a"><span class="pilihannya" status="9" poin="0">Tidak memiliki pemerintahan</span></label></li>
+<li><input type="radio" id="9b" class="pilih" name="9" poin="10" value="b"><label for="9b"><span class="pilihannya" status="9" poin="5">Tidak memiliki kewarganegaraan</span></label></li>
+<li><input type="radio" id="9c" class="pilih" name="9" poin="0" value="c"><label for="9c"><span class="pilihannya" status="9" poin="0">Tidak memiliki hubungan diplomatik</span></label></li>
+<li><input type="radio" id="9d" class="pilih" name="9" poin="0" value="d"><label for="9d"><span class="pilihannya" status="9" poin="0">Tidak memiliki hak banding</span></label></li>
+<li><input type="radio" id="9e" class="pilih" name="9" poin="0" value="e"><label for="9e"><span class="pilihannya" status="9" poin="0">Tidak memiliki silsilah</span></label></li>
+</ol>
+</li>
+<li class="nomor">
+<div>Selisih   uang   Riri   dan   Aan   adalah   Rp80.000,00.   Jika      Riri   memberikan   1/9 
+uangnya kepada Aan, maka uang mereka 
+menjadi  sama  banyaknya.  Jumlah  uang 
+Riri dan Aan semula adalah ...</div>
+<ol class="opsinya">
+<li><input type="radio" id="10a" class="pilih" name="10" poin="0" value="a"><label for="10a"><span class="pilihannya" status="10" poin="0">Rp320.000,00</span></label></li>
+<li><input type="radio" id="10b" class="pilih" name="10" poin="0" value="b"><label for="10b"><span class="pilihannya" status="10" poin="0">Rp480.000,00</span></label></li>
+<li><input type="radio" id="10c" class="pilih" name="10" poin="0" value="c"><label for="10c"><span class="pilihannya" status="10" poin="0">Rp540.000,00</span></label></li>
+<li><input type="radio" id="10d" class="pilih" name="10" poin="10" value="d"><label for="10d"><span class="pilihannya" status="10" poin="5">Rp640.000,00</span></label></li>
+<li><input type="radio" id="10e" class="pilih" name="10" poin="0" value="e"><label for="10e"><span class="pilihannya" status="10" poin="0">Rp655.000,00</span></label></li>
+</ol>
+</li>
+</ol>
+<button id="selesai" class="btn btn-primary btn-lg btn-block" style="text-align: center;">Lihat Skor</button>
+<button id="kuis_lagi" class="btn btn-danger btn-lg mx-auto">Kuis Lagi</button>
+<br><br>
+</div>
+</div>
+</div>
+<!-- * App Capsule -->
+<!-- ///////////// Js Files ////////////////////  -->
+<!-- Jquery -->
+<script src="../assets/js/jquery-3.4.1.min.js"></script>
+<!-- Bootstrap-->
+<script src="../assets/js/popper.min.js"></script>
+<script src="../assets/js/bootstrap.min.js"></script>
+<!-- Ionicons -->
+<script type="module" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.js"></script>
+<!-- Base Js File -->
+<script src="../assets/js/base.js"></script>
+<script src="../src/kuis.js"></script>
+</body>
+</html>

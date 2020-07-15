@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport"
+content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="theme-color" content="#000000">
+<title>BelajarSKD</title>
+<meta name="description" content="Tempat belajar terbaik untuk persiapan masuk perguruan tinggi kedinasan"/>
+<meta name="keywords" content="Bimbel IPDN, Bimbel STAN, Bimbel STIS, Bimbel Akpol, Bimbel Akmil" />
+<!-- CSS Penting -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="../assets/css/style.css">
+<link rel="stylesheet" href="../src/kuis.css">
+</head>
+<body>
+<!-- loader -->
+<div id="loader">
+<div class="spinner-border text-primary" role="status"></div>
+</div>
+<!-- * loader -->
+<!-- App Header -->
+<div class="appHeader bg-primary text-light">
+<div class="left">
+<a href="../kuis.html" class="headerButton goBack">
+<ion-icon name="arrow-back"></ion-icon>
+</a>
+</div>
+<div class="pageTitle">BelajarSKD</div>
+<div class="right"></div>
+</div>
+<!-- * App Header -->
+<!-- App Capsule -->
+<div id="appCapsule">
+<div id="atas" class="blog-post mt-2">
+<h1 class="title">Kuis TIU Bagian 1 </h1><hr>
+<div class="post-body">
+<div class="jumbotron bg-gradient text-center shadow-lg shadow-lg rounded-lg mt-2" id="nilai">
+<p class="text-white display-4">Skor Kuis</p>      
+<p class="font-weight-bold display-3"><kbd><span id="nilainya"></span>/<span>50</span></kbd></p>
+</div>     
+<ol class="semua">
+<li class="nomor">
+<div>Ketika lampu lalu lintas menyala merah, seorang teman mengajak untuk terus melaju,dan keempat mobil teman saya mengikuti ajakan tersebut. Bagaimana dengan anda ?</div>
+<ol class="opsinya">
+<li><input type="radio" id="1a" class="pilih" name="1" poin="4" value="a"><label for="1a"><span class="pilihannya" status="1" poin="4">  Saya tetap menunggu lampu menyala hijau<span class="pointkp"> (4)</span></span></label></li>
+<li><input type="radio" id="1b" class="pilih" name="1" poin="1" value="b"><label for="1b"><span class="pilihannya" status="1" poin="1"> Saya turut melaju karena jika melaju di lampu merah bersama-sama justru tidakmengapa<span class="pointkp"> (1)</span></span></label></li>
+<li><input type="radio" id="1c" class="pilih" name="1" poin="2" value="c"><label for="1c"><span class="pilihannya" status="1" poin="2"> Saya ragu-ragu apa yang harus saya perbuat<span class="pointkp"> (2)</span></span></label></li>
+<li><input type="radio" id="1d" class="pilih" name="1" poin="3" value="d"><label for="1d"><span class="pilihannya" status="1" poin="3"> Jika tak ada polisi di sekitar tempat tersebut, saya ikut melaju<span class="pointkp"> (3)</span></span></label></li>
+<li><input type="radio" id="1e" class="pilih" name="1" poin="5" value="e"><label for="1e"><span class="pilihannya" status="1" poin="5"> Saya tak ikut melaju karena takut tertangkap polisi <span class="pointkp"> (5)</span></span></label></li>
+</ol>
+</li>
+<li class="nomor">
+<div>Telepon berdering dari meja rekan anda yang kebetulan tidak ditempat, sedangkan anda sedang sibuk dengan pekerjaan. Maka reaksi anda adalah ?</div>
+<ol class="opsinya">
+<li><input type="radio" id="2a" class="pilih" name="2" poin="1" value="a"><label for="2a"><span class="pilihannya" status="2" poin="1">  Mencabut telepon <span class="pointkp"> (1)</span></span></label></li>
+<li><input type="radio" id="2b" class="pilih" name="2" poin="2" value="b"><label for="2b"><span class="pilihannya" status="2" poin="2"> Tidak mengangkat telepon <span class="pointkp"> (2)</span></span></label></li>
+<li><input type="radio" id="2c" class="pilih" name="2" poin="5" value="c"><label for="2c"><span class="pilihannya" status="2" poin="5"> Mengangkat telepon kemudian mencatat pesan dari penelpon <span class="pointkp"> (5)</span></span></label></li>
+<li><input type="radio" id="2d" class="pilih" name="2" poin="4" value="d"><label for="2d"><span class="pilihannya" status="2" poin="4"> Memanggil rekan anda untuk segera kembali ke meja kerja  <span class="pointkp"> (4)</span></span></label></li>
+<li><input type="radio" id="2e" class="pilih" name="2" poin="3" value="e"><label for="2e"><span class="pilihannya" status="2" poin="3">Menjawab telepon dengan jawaban singkat  <span class="pointkp"> (3)</span></span></label></li>
+</ol>
+</li>
+<li class="nomor">
+<div>Saya sedang dalam perjalanan ke kantor menggunakan kendaraan umum. Tiba-tiba kendaraan tersebut mogok di jalan. Saya akan ..... </div>
+<ol class="opsinya">
+<li><input type="radio" id="3a" class="pilih" name="3" poin="1" value="a"><label for="3a"><span class="pilihannya" status="3" poin="1">Menunggu kendaraan tersebut selesai diperbaiki <span class="pointkp"> (1)</span></span></label></li>
+<li><input type="radio" id="3b" class="pilih" name="3" poin="2" value="b"><label for="3b"><span class="pilihannya" status="3" poin="2">Berusaha mencari kendaraan lain untuk ke kantor <span class="pointkp"> (2)</span></span></label></li>
+<li><input type="radio" id="3c" class="pilih" name="3" poin="5" value="c"><label for="3c"><span class="pilihannya" status="3" poin="5">Mengabari teman di kantor dan menyampaikan bahwa saya akan terlambat <span class="pointkp"> (5)</span></span></label></li>
+<li><input type="radio" id="3d" class="pilih" name="3" poin="4" value="d"><label for="3d"><span class="pilihannya" status="3" poin="4">Meminta teman kantor untuk menjemput saya<span class="pointkp"> (4)</span></span></label></li>
+<li><input type="radio" id="3e" class="pilih" name="3" poin="3" value="e"><label for="3e"><span class="pilihannya" status="3" poin="3">Berusaha secepatnya untuk ke kantor supaya tidak terlambat <span class="pointkp"> (3)</span></span></label></li>
+</ol>
+</li>
+<li class="nomor">
+<div>Suatu hari Saya dan teman-teman bersepakat untuk pergi ke perpustakaan kota bersama guna mencari buku untuk mengerjakan tugas sekolah. Saya dan seorang teman Saya sudah menunggu selama 1 jam di tempat yang disepakati. Namun ada dari dua orang teman saya yang datang terlambat dan mengatakan bahwa mereka membantu seorang ibu ibu yang keserempet mobil dan si pengemudi mobil tersebut meninggalkannya begitu saja. Maka yang akan saya lakukan adalah</div>
+<ol class="opsinya">
+<li><input type="radio" id="4a" class="pilih" name="4" poin="1" value="a"><label for="4a"><span class="pilihannya" status="4" poin="1">Menyuruh mereka pulang saja karena sudah tidak bisa menepati janji dan menghargai waktu orang lain<span class="pointkp"> (1)</span></span></label></li>
+<li><input type="radio" id="4b" class="pilih" name="4" poin="5" value="b"><label for="4b"><span class="pilihannya" status="4" poin="5">Menyuruh mereka untuk duduk dan menanyakan permasalahan yang terjadi dan kondisi mereka.<span class="pointkp"> (5)</span></span></label></li>
+<li><input type="radio" id="4c" class="pilih" name="4" poin="3" value="c"><label for="4c"><span class="pilihannya" status="4" poin="3">Memberitahu mereka bahwa lain kali mereka tidak akan ditunggu, jika tidak memberikan sama sekali<span class="pointkp"> (3)</span></span></label></li>
+<li><input type="radio" id="4d" class="pilih" name="4" poin="2" value="d"><label for="4d"><span class="pilihannya" status="4" poin="2">Merasa kesel dan kecewa karena sudah menunggu lama dan menyuruh mereka pulang saja dan saya langsung ke perpustakaan<span class="pointkp"> (2)</span></span></label></li>
+<li><input type="radio" id="4e" class="pilih" name="4" poin="4" value="e"><label for="4e"><span class="pilihannya" status="4" poin="4">Mengajak mereka ke perpustakaan kota untuk melupakan peristiwa yang baru saja terjadi.<span class="pointkp"> (4)</span></span></label></li>
+</ol>
+</li>
+<li class="nomor">
+<div>Saat sedang mengerjakan tugas bersama, beberapa rekan tim saya meminta ijin untuk pulang lebih dahulu. Sikap saya sebagai ketua tim kerja ... </div>
+<ol class="opsinya">
+<li><input type="radio" id="5a" class="pilih" name="5" poin="3" value="a"><label for="5a"><span class="pilihannya" status="5" poin="3">Meminta mereka untuk mempertimbangkannya kembali <span class="pointkp"> (3)</span></span></label></li>
+<li><input type="radio" id="5b" class="pilih" name="5" poin="4" value="b"><label for="5b"><span class="pilihannya" status="5" poin="4">Memaksa mereka untuk tetap tinggal dan mengerjakan tugas<span class="pointkp"> (4)</span></span></label></li>
+<li><input type="radio" id="5c" class="pilih" name="5" poin="2" value="c"><label for="5c"><span class="pilihannya" status="5" poin="2">Mempersilakan mereka pergi karena memang sangat penting <span class="pointkp"> (2)</span></span></label></li>
+<li><input type="radio" id="5d" class="pilih" name="5" poin="1" value="d"><label for="5d"><span class="pilihannya" status="5" poin="1">Mempersilakan mereka pergi meskipun berat hat<span class="pointkp"> (1)</span></span></label></li>
+<li><input type="radio" id="5e" class="pilih" name="5" poin="5" value="e"><label for="5e"><span class="pilihannya" status="5" poin="5">Meminta mereka menyelesaikan tanggung jawab mereka sebelum pergi <span class="pointkp"> (5)</span></span></label></li>
+</ol>
+</li>
+<li class="nomor">
+<div>Dalam bekerja secara kelompok, saya cenderung?</div>
+<ol class="opsinya">
+<li><input type="radio" id="6a" class="pilih" name="6" poin="2" value="a"><label for="6a"><span class="pilihannya" status="6" poin="2">  Menjadi pendengar yang baik<span class="pointkp"> (2)</span></span></label></li>
+<li><input type="radio" id="6b" class="pilih" name="6" poin="3" value="b"><label for="6b"><span class="pilihannya" status="6" poin="3"> Mendominasi jalannya diskusi karena saya yakin akan kemampuan saya <span class="pointkp"> (3)</span></span></label></li>
+<li><input type="radio" id="6c" class="pilih" name="6" poin="1" value="c"><label for="6c"><span class="pilihannya" status="6" poin="1">Diam dan mendengarkan karena pendengar yang baik nantinya akan bekerja dengan baik<span class="pointkp"> (1)</span></span></label></li>
+<li><input type="radio" id="6d" class="pilih" name="6" poin="5" value="d"><label for="6d"><span class="pilihannya" status="6" poin="5"> Aktif serta memberikan usul dan saran<span class="pointkp"> (5)</span></span></label></li>
+<li><input type="radio" id="6e" class="pilih" name="6" poin="4" value="e"><label for="6e"><span class="pilihannya" status="6" poin="4"> Mendengarkan dan memberikan kritik setiap ditemukan kesalahan <span class="pointkp"> (4)</span></span></label></li>
+</ol>
+</li>
+<li class="nomor">
+<div>Ketika  Kepala  sekolah  Anda  membutuhkan   warga   sekolahnya   untuk  melakukan    kerja    bakti    di    lingkungan sekolah Anda    dan    sekitarnya,    Anda  sedang sibuk. Maka Anda akan...</div>
+<ol class="opsinya">
+<li><input type="radio" id="7a" class="pilih" name="7" poin="2" value="a"><label for="7a"><span class="pilihannya" status="7" poin="2">Tetap   ikut   dalam   kerja   bakti   walau  Anda sedang punya tugas mendadak<span class="pointkp"> (2)</span></span></label></li>
+<li><input type="radio" id="7b" class="pilih" name="7" poin="5" value="b"><label for="7b"><span class="pilihannya" status="7" poin="5">Menemui  kepala  sekolah dan  warga  sekolah  yang  lain  dengan  membawa  maaf dan makanan<span class="pointkp"> (5)</span></span></label></li>
+<li><input type="radio" id="7c" class="pilih" name="7" poin="4" value="c"><label for="7c"><span class="pilihannya" status="7" poin="4">Meminta  salah  seorang  pekerja  Anda  untuk ikut serta dalam kerja bakti<span class="pointkp"> (4)</span></span></label></li>
+<li><input type="radio" id="7d" class="pilih" name="7" poin="1" value="d"><label for="7d"><span class="pilihannya" status="7" poin="1">Tidak ambil peduli dengan semua yang  terjadi<span class="pointkp"> (1)</span></span></label></li>
+<li><input type="radio" id="7e" class="pilih" name="7" poin="3" value="e"><label for="7e"><span class="pilihannya" status="7" poin="3">Meminta   orang   lain   untuk   mewakili  Anda dalam kerja bakti tersebut<span class="pointkp"> (3)</span></span></label></li>
+</ol>
+</li>
+<li class="nomor">
+<div>Saya tahu maksud atasan saya meskipun  beliau  salah  mengatakannya  atau  keliru  saat  memberi  instruksi  pada  tim  saya.  Bagaimana sikap anda ...</div>
+<ol class="opsinya">
+<li><input type="radio" id="8a" class="pilih" name="8" poin="3" value="a"><label for="8a"><span class="pilihannya" status="8" poin="3">Saya  tetap  mengulanginya  meskipun  sambil  sedikit  melampiaskan  keksalan  pada atasan<span class="pointkp"> (3)</span></span></label></li>
+<li><input type="radio" id="8b" class="pilih" name="8" poin="2" value="b"><label for="8b"><span class="pilihannya" status="8" poin="2">Meskipun    dia    atasan    saya,    saya  menegurnya     dengan     keras     atas  kesalahan    <span class="pointkp"> (2)</span></span></label></li>
+<li><input type="radio" id="8c" class="pilih" name="8" poin="4" value="c"><label for="8c"><span class="pilihannya" status="8" poin="4">Saya  mengulanginya  meskipun  dalam  hati terasa sangat marah<span class="pointkp"> (4)</span></span></label></li>
+<li><input type="radio" id="8d" class="pilih" name="8" poin="1" value="d"><label for="8d"><span class="pilihannya" status="8" poin="1">Saya   tidak   bersedia   mengulanginya  karena   kesalahan   bukan   dari   pihak  saya<span class="pointkp"> (1)</span></span></label></li>
+<li><input type="radio" id="8e" class="pilih" name="8" poin="5" value="e"><label for="8e"><span class="pilihannya" status="8" poin="5">Saya   bersedia   mengulanginya   dan  saya   juga   memintanya   untuk   lebih  berhati - hati  dalam memberikan instruksi di kemudian hari<span class="pointkp"> (5)</span></span></label></li>
+</ol>
+</li>
+<li class="nomor">
+<div>Ketika atasan saya menyuruh saya untuk mengerjakan pekerjaan yang risikonya besar, maka saya akan...</div>
+<ol class="opsinya">
+<li><input type="radio" id="9a" class="pilih" name="9" poin="1" value="a"><label for="9a"><span class="pilihannya" status="9" poin="1">  Takut dan menolaknya<span class="pointkp"> (1)</span></span></label></li>
+<li><input type="radio" id="9b" class="pilih" name="9" poin="3" value="b"><label for="9b"><span class="pilihannya" status="9" poin="3"> Takut namun tetap menerimanya<span class="pointkp"> (3)</span></span></label></li>
+<li><input type="radio" id="9c" class="pilih" name="9" poin="5" value="c"><label for="9c"><span class="pilihannya" status="9" poin="5"> Menerimaya dan meminta doanya<span class="pointkp"> (5)</span></span></label></li>
+<li><input type="radio" id="9d" class="pilih" name="9" poin="4" value="d"><label for="9d"><span class="pilihannya" status="9" poin="4"> Menerimaya dan yakin saya pasti bisa<span class="pointkp"> (4)</span></span></label></li>
+<li><input type="radio" id="9e" class="pilih" name="9" poin="2" value="e"><label for="9e"><span class="pilihannya" status="9" poin="2"> Menerimanya jika atasan tetap bersikeras <span class="pointkp"> (2)</span></span></label></li>
+</ol>
+</li>
+<li class="nomor">
+<div>Dalam  sebuah  survey  konsumen,  rating  tertinggi   untuk   pelayanan   terbaik   jatuh  kepada   Anda.   Maka   Anda   menyikapi  pujian tersebut dengan cara ...</div>
+<ol class="opsinya">
+<li><input type="radio" id="10a" class="pilih" name="10" poin="1" value="a"><label for="10a"><span class="pilihannya" status="10" poin="1">Mentraktir teman - teman anda yang lain<span class="pointkp"> (1)</span></span></label></li>
+<li><input type="radio" id="10b" class="pilih" name="10" poin="3" value="b"><label for="10b"><span class="pilihannya" status="10" poin="3">Menerima  penghargaan  tersebut  dengan penuh suka cita<span class="pointkp"> (3)</span></span></label></li>
+<li><input type="radio" id="10c" class="pilih" name="10" poin="4" value="c"><label for="10c"><span class="pilihannya" status="10" poin="4">Senantiasa bersyukur pada Tuhan<span class="pointkp"> (4)</span></span></label></li>
+<li><input type="radio" id="10d" class="pilih" name="10" poin="5" value="d"><label for="10d"><span class="pilihannya" status="10" poin="5">Bersyukur  pada  Tuhan  dan  berusaha  bekerja lebih baik lagi<span class="pointkp"> (5)</span></span></label></li>
+<li><input type="radio" id="10e" class="pilih" name="10" poin="2" value="e"><label for="10e"><span class="pilihannya" status="10" poin="2">Sangat  terharu  karena  tidak  menyangka akan terpilih<span class="pointkp"> (2)</span></span></label></li>
+</ol>
+</li>
+</ol>
+<button id="selesai" class="btn btn-primary btn-lg btn-block" style="text-align: center;">Lihat Skor</button>
+<button id="kuis_lagi" class="btn btn-danger btn-lg mx-auto">Kuis Lagi</button>
+<br><br>
+</div>
+</div>
+</div>
+<!-- * App Capsule -->
+<!-- ///////////// Js Files ////////////////////  -->
+<!-- Jquery -->
+<script src="../assets/js/jquery-3.4.1.min.js"></script>
+<!-- Bootstrap-->
+<script src="../assets/js/popper.min.js"></script>
+<script src="../assets/js/bootstrap.min.js"></script>
+<!-- Ionicons -->
+<script type="module" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.js"></script>
+<!-- Base Js File -->
+<script src="../assets/js/base.js"></script>
+<script src="../src/kuis.js"></script>
+</body>
+</html>

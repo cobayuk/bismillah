@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport"
+content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="theme-color" content="#000000">
+<title>BelajarSKD</title>
+<meta name="description" content="Tempat belajar terbaik untuk persiapan masuk perguruan tinggi kedinasan"/>
+<meta name="keywords" content="Bimbel IPDN, Bimbel STAN, Bimbel STIS, Bimbel Akpol, Bimbel Akmil" />
+<link rel="icon" type="image/png" href="assets/img/favicon.png" sizes="32x32">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/img/icon/192x192.png">
+<link rel="stylesheet" href="../src/materi.css">
+</head>
+<body>
+<!-- loader -->
+<div id="loader">
+<div class="spinner-border text-primary" role="status"></div>
+</div>
+<!-- * loader -->
+<!-- App Header -->
+<div class="appHeader bg-primary text-light">
+<div class="left">
+<a href="../materi.html" class="headerButton goBack">
+<ion-icon name="arrow-back-outline"></ion-icon>
+</a>
+</div>
+<div class="pageTitle">Materi TIU</div>
+<div class="right"></div>
+</div>
+<!-- * App Header -->
+<!-- App Capsule -->
+<div id="appCapsule">
+<div class="blog-post mt-2">
+<h1 class="title">Mean, Median, Modus, dan Range - SKD/TKD</h1>            <div class="post-header">
+<div class="admin">
+<a href="#">
+<img src="../src/admin.png" alt="avatar" class="imaged w36 rounded mr-05">  
+</a>
+</div>
+Jun 11, 2020
+</div>
+<div class="post-body">
+<p>Andi, budi, candra, doni dan eka sudah bersahabat sejak kecil. Umur mereka saat ini berturut-turut adalah 17, 16, 16, 18, dan 19 tahun.</p>
+<p>Pada ilustrasi diatas, umur mereka berlima disebut dengan data. Pada bab ini, kita akan mengolah data tersebut untuk menjadi sebuah informasi, yaitu ukuran pemusatan data yang terdiri dari mean, median, modus, dan range.</p>
+<p>Untuk lebih mempermudah dalam memahaminya, perhatikan pertanyaan berikut :</p>
+<ul>
+<li>Mean : berapa rata-rata umur mereka berlima?</li>
+<li>Median : berapa umur tengah mereka berlima?</li>
+<li>Modus : umur berapa yang paling banyak dimiliki ?</li>
+<li>Range : berapa selisih umur yang tertua dengan yang termuda?</li>
+</ul>
+<p>Seperti yang telah dijelaskan sebelumnya, data umur mereka berlima akan kita olah dan menyajikannya dalam bentuk jawaban atas keempat pertanyaan diatas.</p>
+<h3>A. Mean</h3>
+<p>Mean atau rata-rata hitung adalah nilai yang diperoleh dari sejumlah kelompok data dibagi dengan banyaknya data. Mean biasanya disimbolkan dengan x.</p>
+<p><img class="img-tiu" src="https://2.bp.blogspot.com/-Ql2qPKQQjD0/XMVoQO-UEOI/AAAAAAAABHY/2qyzh2vvmrcfkoYWMcuM-fdD8Wt8o4X5gCLcBGAs/s1600/mean1.PNG" alt="" width="300" height="77" /></p>
+<p>n = banyaknya data<br />x<sub>n</sub> = nilai data ke-n</p>
+<p>Dengan rumus tersebut, maka kita dapat menjawab rata-rata dari umur mereka berlima, yaitu :</p>
+<p><img class="img-tiu" src="https://1.bp.blogspot.com/-iDrT0SuYnkM/XMVoQJN3-dI/AAAAAAAABHU/TghS8P9Tw6gZ8EEc1dZ7SpwCwID_f5dqgCLcBGAs/s1600/mean2.PNG" alt="" width="300" height="57" /></p>
+<p>Maka rata-rata umur mereka berlima adalah 17,2 tahun.</p>
+<p><img class="img-tiu" src="https://1.bp.blogspot.com/-48oOgsGZK8s/XMVoP91cfCI/AAAAAAAABHQ/HTUFSznxL8kNAZOShQ0TkEDnYS8TzI7FgCLcBGAs/s1600/mean3.PNG" alt="" width="300" height="121" /></p>
+<p>x<sub>1,2,...</sub> = rata-rata<br />n<sub>1,2,...</sub> = jumlah data</p>
+<h3>B. Median</h3>
+<p>Median adalah nilai data yang terletak di tengah setelah data diurutkan. Dengan demikian, median membagi data menjadi dua bagian yang sama besar. Median (nilai tengah) disimbolkan dengan Me.</p>
+<p>Jika banyaknya data n ganjil, maka</p>
+<p><img class="img-tiu" src="https://1.bp.blogspot.com/-U_t36M6t3Ho/XMVoQXyIOtI/AAAAAAAABHc/OD7NKgA3fOgMbsbXP2uBVsnONV255USPgCLcBGAs/s1600/mean4.PNG" alt="" width="300" height="91" /></p>
+<p>Jika banyaknya data n genap, maka</p>
+<p><img class="img-tiu" src="https://2.bp.blogspot.com/-mQG1K0QjYzg/XMVoRLUOkDI/AAAAAAAABHg/YKdeG8lZpaY-n11-vVENQ1qldFQgIVPqACLcBGAs/s1600/mean5.PNG" alt="" width="300" height="85" /></p>
+<p>Untuk mencari median dari umur mereka berlima (ganjil), maka hal yang pertama kita lakukan adalah mengurutkannya terlebih dahulu yaitu 16, 16, 17, 18, dan 19. Setelah itu ambil umur yang berada pada urutan ketiga (5+1)/2 untuk menjadi median, yaitu 17 tahun.</p>
+<h3>C. Modus</h3>
+<p>Modus adalah data yang paling sering muncul atau memiliki frekuensi tertinggi. Modus dilambangkan dengan Mo.</p>
+<p>Dari pengertian modus tersebut, maka modus dari umur mereka berlima adalah 16 tahun (paling banyak muncul/dimiliki 2 orang).</p>
+<h3>D. Range</h3>
+<p>Range adalah selisih antara nilai terbesar dan terkecil. Range dilambangkan dengan R.</p>
+<p><img class="img-tiu" src="https://2.bp.blogspot.com/-OPXMYTUkbbw/XMVoREL5xTI/AAAAAAAABHk/7oX4yrfIbHUj7gjE2sTRUEEdc51G2RUUwCLcBGAs/s1600/mean6.PNG" alt="" width="300" height="55" /></p>
+<p>Maka kita juga dapat mencari range umur mereka berlima, yaitu 2 tahun (selisih antara umur tertinggi 19 tahun dengan umur terendah 17 tahun).</p>
+<p>Contoh Soal :</p>
+<p>Untuk menjawab soal berikut, perhatikan data nilai hasil ujian matematika dari 150 siswa SMA 10 Sukajaya seperti pada gambar grafik di bawah ini.</p>
+<p><img class="img-tiu" src="https://4.bp.blogspot.com/-SINKmwr2ceQ/XMVoRTdVpCI/AAAAAAAABHo/KpCzTvmpQBo-Q5-HrYlCSMPOTK7uKGOrQCLcBGAs/s1600/mean7.PNG" alt="" width="300" height="250" /></p>
+<p><br />&nbsp;<br /><span style="background-color: #00ff00;">1. </span>Median dari hasil ujian matematika tersebut adalah ...</p>
+<ol style="list-style-type: lower-alpha;">
+<li>50</li>
+<li>80</li>
+<li>60</li>
+<li>70</li>
+<li>90</li>
+</ol>
+<p>Jawab :</p>
+<p>Dari jumlah siswa sebanyak 150 orang, maka nilai tengahnya berada pada urutan antara 75-76. Jika diurutkan maka urutan tersebut memiliki nilai 80.</p>
+<p><span style="background-color: #00ff00;">2. </span>Range dari hasil ujian matematika tersebut adalah ...</p>
+<ol style="list-style-type: lower-alpha;">
+<li>50</li>
+<li>40</li>
+<li>45</li>
+<li>55</li>
+<li>60</li>
+</ol>
+<p>Jawab :</p>
+<p>Selisih nilai tertinggi dan terendah adalah 50 (100 &ndash; 50).</p>
+<p><span style="background-color: #00ff00;">3. </span>Nilai mean (rata-rata) dari hasil ujian matematika tersebut adalah ...</p>
+<ol style="list-style-type: lower-alpha;">
+<li>76,7</li>
+<li>78,6</li>
+<li>78,7</li>
+<li>78,8</li>
+<li>77,0</li>
+</ol>
+<p>Jawab :<br /><img class="img-tiu" src="https://1.bp.blogspot.com/-GDyv8Akv4Jo/XMVoRyW7API/AAAAAAAABHs/0DWoSWTIbW0CuMSBKIUxMONYLkpk_kLNwCLcBGAs/s1600/mean8.PNG" alt="" width="300" height="102" /></p>
+<p><span style="background-color: #00ff00;">4. </span>Modus dari hasil ujian matematika tersebut adalah ...</p>
+<ol style="list-style-type: lower-alpha;">
+<li>80</li>
+<li>60</li>
+<li>70</li>
+<li>90</li>
+<li>100</li>
+</ol>
+<p>Jawab :</p>
+<p>Dari grafik diatas dapat diketahui bahwa nilai siswa yang paling banyak adalah 80, yaitu sebesar 50%.</p>
+<p><span style="background-color: #00ff00;">5. </span>Seorang anak bernama Intan memiliki ladang yang ditanami pohon sengon dan pohon jati dengan rata-rata tinggi pohon adalah 530 cm. Rata-rata tinggi pohon sengon adalah 420 cm dan pohon jati adalah 560 cm. Jika m adalah jumlah pohon sengon dan n adalah jumlah pohon jati maka ...</p>
+<ol style="list-style-type: lower-alpha;">
+<li>m &lt; n</li>
+<li>m = n</li>
+<li>Hubungan m dan n tidak dapat ditentukan</li>
+<li>m = n<sup>2</sup></li>
+<li>m &gt; n</li>
+</ol>
+<p>Jawab :</p>
+<p><img class="img-tiu" src="https://4.bp.blogspot.com/-Ave-6HukjR0/XMVoR4CTtgI/AAAAAAAABHw/1LByDGVdv9oR5DEAIbz1q2CjT5vUW6eZgCLcBGAs/s1600/mean9.PNG" alt="" width="250" height="140" /></p>
+<p><span style="background-color: #00ff00;">6. </span>Berapa nilai rata-rata barisan aritmatika kelipatan lima mulai dari lima belas sampai lima puluh ?</p>
+<ol style="list-style-type: lower-alpha;">
+<li>15</li>
+<li>27,5</li>
+<li>30</li>
+<li>32,5</li>
+<li>35</li>
+</ol>
+<p>Jawab :<br />= (15+20+25+30+35+40+45+50) / 8 <br />= 260/8<br />= 32,5</p>
+</div>
+</div>
+<div class="section mt-4">
+<a href="../materi.html" class="btn btn-outline-primary btn-block">
+<ion-icon name="arrow-undo-outline"></ion-icon>
+Pelajari Materi Lainnya
+</a>
+</div>
+</div>
+<!-- * App Capsule -->
+<!-- ///////////// Js Files ////////////////////  -->
+<!-- Jquery -->
+<script src="../assets/js/jquery-3.4.1.min.js"></script>
+<!-- Bootstrap-->
+<script src="../assets/js/popper.min.js"></script>
+<script src="../assets/js/bootstrap.min.js"></script>
+<!-- Ionicons -->
+<script type="module" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.js"></script>
+<!-- Base Js File -->
+<script src="../assets/js/base.js"></script>
+</body>
+</html>
